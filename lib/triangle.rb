@@ -1,4 +1,4 @@
-require 'pry'
+
 class Triangle
   attr_accessor :sides
   
@@ -28,5 +28,5 @@ class Triangle
   
   class TriangleError < StandardError
   end
-  #binding pry
+  
 end
